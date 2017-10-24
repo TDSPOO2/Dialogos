@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="238.0" prefWidth="304.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dialogos.FXMLDocumentController">
+   <children>
+      <Button contentDisplay="CENTER" layoutX="54.0" layoutY="61.0" mnemonicParsing="false" onAction="#ventanaInformacion" prefHeight="25.0" prefWidth="195.0" text="Ventana de informacion" />
+      <Button layoutX="54.0" layoutY="101.0" mnemonicParsing="false" onAction="#ventanaAdvertencia" prefHeight="25.0" prefWidth="195.0" text="Ventana de advertencia" />
+      <Button layoutX="55.0" layoutY="140.0" mnemonicParsing="false" onAction="#ventanaError" prefHeight="25.0" prefWidth="195.0" text="Ventana de error" />
+      <Button layoutX="53.0" layoutY="182.0" mnemonicParsing="false" onAction="#ventanaConfirmacion" prefHeight="25.0" prefWidth="195.0" text="Ventana de confirmacion" />
+      <Label layoutX="58.0" layoutY="20.0" text="Ventanas de dialogo">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
